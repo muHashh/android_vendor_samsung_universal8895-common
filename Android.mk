@@ -56,17 +56,14 @@ LOCAL_MODULE_PATH_64 := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/egl
 
 SYMLINKS := $(TARGET_OUT)/vendor
 $(SYMLINKS):
-	@echo "Symlink: vulkan.exynos5.so"
-	@mkdir -p $@/lib/hw
-	@mkdir -p $@/lib64/hw
-	$(hide) ln -sf ../egl/libGLES_mali.so $@/lib/hw/vulkan.exynos5.so
-	$(hide) ln -sf ../egl/libGLES_mali.so $@/lib64/hw/vulkan.exynos5.so
 	@echo "Symlink: libOpenCL.so"
 	$(hide) ln -sf egl/libGLES_mali.so $@/lib/libOpenCL.so
 	$(hide) ln -sf egl/libGLES_mali.so $@/lib64/libOpenCL.so
 	@echo "Symlink: libOpenCL.so.1"
 	$(hide) ln -sf egl/libGLES_mali.so $@/lib/libOpenCL.so.1
 	$(hide) ln -sf egl/libGLES_mali.so $@/lib64/libOpenCL.so.1
+	@mkdir -p $@/lib/hw
+	@mkdir -p $@/lib64/hw
 	@echo "Symlink: libOpenCL.so.1.1"
 	$(hide) ln -sf egl/libGLES_mali.so $@/lib/libOpenCL.so.1.1
 	$(hide) ln -sf egl/libGLES_mali.so $@/lib64/libOpenCL.so.1.1

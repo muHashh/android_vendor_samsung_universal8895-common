@@ -239,11 +239,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/camera.device@3.5-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-external-impl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-impl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/vulkan.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.exynos5.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/gatekeeper.exynos8895.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos8895.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos5.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/memtrack.universal8895.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.universal8895.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/sound_trigger.primary.universal8895.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.universal8895.so \
+    vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/vulkan.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.exynos5.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriverArm.so \
@@ -308,7 +308,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/camera.device@3.5-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-external-impl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-impl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/vulkan.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.exynos5.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/android.hardware.gnss@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.1-impl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/gatekeeper.exynos8895.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos8895.so \
@@ -317,6 +316,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.mdfpp.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/memtrack.universal8895.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.universal8895.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
+    vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/vulkan.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.exynos5.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriverArm.so \
